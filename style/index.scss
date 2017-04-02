@@ -1,0 +1,28 @@
+/*INDEX*/
+
+#index {
+  background-image: url(../assets/images/tomo-nogi-189346.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#name {
+  font-size: 5em;
+  margin: 0;
+  padding-top: 7em;
+  /*padding-left: 600px;*/
+  font-family: $h1font;
+}
+
+#tagline {
+  font-size: 2em;
+  font-family: $h2font;
+  margin-top: -15px;
+}

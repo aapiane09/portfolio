@@ -1,0 +1,32 @@
+/* PROJECTS */
+
+
+.list-item {
+ margin-bottom: 6px;
+}
+
+.project-select{
+  border: 3px solid #6A6771;
+  padding: 20px 0;
+  font-family: $h2font;
+  font-size: 1.5em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.project-select:hover {
+  color: $accent-color;
+  border: 3px solid #BB6E3A;
+}
+
+.noproject {
+  padding-top: 103px;
+  font-family: $h2font;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.project-title {
+  font-family: $h2font;
+  display: inline;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

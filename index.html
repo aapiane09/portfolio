@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <title>Alessandro Pianetta - Full Stack Developer</title>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/webfontkit-20170306-161314/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/fonts/webfontkit-20170320-142146/stylesheet.css" type="text/css" charset="utf-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- MATERIALIZE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="assets/style/animate.css">
+    <link rel="stylesheet" href="style/style.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js">
+    </script>
+
   </head>
   <body>
-    <div class="container"></div>
+
+    <a name="top" id="navbar">
+      <div class="row">
+        <div class="header col m3 offset-m3 s3 offset-s2 center">
+          <a class="headerlinks" href="#projects">Projects</a>
+        </div>
+        <div class="header col m3 s3 offset-s1 center">
+          <a class="headerlinks" href="#contact">Contact</a>
+        </div>
+      </div>
+    </a>
+
+    <div class="page" id="index">
+      <div class="row">
+        <div class="col m6 offset-m6 s12">
+          <p class="title animated fadeInRight" id="name">Alessandro Pianetta</p>
+          <p class="title animated fadeInRight" id="tagline">Full Stack Web Developer</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" id="projects">
+      <a name="projects"><h1>Projects</h1></a>
+      <div class="projects-container"></div>
+      <div class="row center">
+        <a href="#top"><i class="goup small material-icons">call_made</i></a>
+      </div>
+    </div>
+
+    <div class="page">
+      <a name="contact" id="contact"><h1>Contact</h1></a>
+      <div class="row">
+        <div class="col m3 offset-m2 s10 offset-s1">
+          <img id="headshot" src="assets/images/headshot.jpg" alt="">
+        </div>
+        <div class="col m5 offset-m1 s9 offset-s2">
+          <div id="about">
+            <ul id="links">
+              <li>
+                <img class="linklogo" src="assets/images/gmail.png" alt="">
+                <a href="mailto:aapiane09@gmail.com">Email me!</a>
+              </li>
+              <li>
+                <img class="linklogo" src="assets/images/Octocat.png" alt="">
+                <a href="https://github.com/alessandro-pianetta">My Github</a>
+              </li>
+              <li>
+                <img class="linklogo" src="assets/images/LinkedIn_logo_initials.png" alt="">
+                <a href="https://www.linkedin.com/in/apianetta/">My LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row center">
+        <a href="#top"><i class="goup small material-icons">call_made</i></a>
+      </div>
+    </div>
   </body>
   <script src="/bundle.js"></script>
 </html>

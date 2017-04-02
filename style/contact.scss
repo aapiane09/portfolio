@@ -1,0 +1,46 @@
+/* CONTACT */
+
+#headshot {
+  width: 95%;
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#about {
+  color: white;
+  font-family: "Roboto";
+  font-size: 1.2em;
+}
+
+.linklogo {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 20px;
+}
+
+#links {
+  padding-top: 1em;
+  li {
+    margin-bottom: 40px;
+    a {
+      font-family: $h2font;
+      font-size: 3em;
+      color: white;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+#links li a:hover {
+  color: $accent-color;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.git {
+  color: black;
+}

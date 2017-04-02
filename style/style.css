@@ -1,0 +1,133 @@
+body {
+  background: #4D4B54;
+  width: 100%; }
+
+.page {
+  box-sizing: content-box;
+  min-height: 750px;
+  width: 100%; }
+
+.goup {
+  margin-top: 100px;
+  color: white;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.goup:hover {
+  color: #DE9563;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+h1 {
+  font-family: "dry_brushregular";
+  color: #DE9563;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+.test {
+  color: white; }
+
+/*INDEX*/
+#index {
+  background-image: url(../assets/images/tomo-nogi-189346.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll; }
+
+.title {
+  text-align: center;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; }
+
+#name {
+  font-size: 5em;
+  margin: 0;
+  padding-top: 7em;
+  /*padding-left: 600px;*/
+  font-family: "dry_brushregular"; }
+
+#tagline {
+  font-size: 2em;
+  font-family: "Permanent Marker";
+  margin-top: -15px; }
+
+/*NAVBAR*/
+.row {
+  margin: 10px auto; }
+
+#navbar {
+  box-shadow: 0, 0, 1px 0 black, 0; }
+
+.headerlinks {
+  font-family: "Permanent Marker";
+  font-size: 1.75em;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; }
+
+.headerlinks:hover {
+  color: #DE9563;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+/* PROJECTS */
+.list-item {
+  margin-bottom: 6px; }
+
+.project-select {
+  border: 3px solid #6A6771;
+  padding: 20px 0;
+  font-family: "Permanent Marker";
+  font-size: 1.5em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+.project-select:hover {
+  color: #DE9563;
+  border: 3px solid #BB6E3A; }
+
+.noproject {
+  padding-top: 103px;
+  font-family: "Permanent Marker";
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+.project-title {
+  font-family: "Permanent Marker";
+  display: inline;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+/* CONTACT */
+#headshot {
+  width: 95%;
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-bottom: 20px; }
+
+#contact {
+  margin-top: 100px; }
+
+#about {
+  color: white;
+  font-family: "Roboto";
+  font-size: 1.2em; }
+
+.linklogo {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 20px; }
+
+#links {
+  padding-top: 1em; }
+  #links li {
+    margin-bottom: 40px; }
+    #links li a {
+      font-family: "Permanent Marker";
+      font-size: 3em;
+      color: white;
+      padding-bottom: 10px; }
+
+#links li a:hover {
+  color: #DE9563;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+.git {
+  color: black; }

@@ -1,0 +1,39 @@
+$background-color: #4D4B54;
+$accent-color: #DE9563;
+$h1font: 'dry_brushregular';
+$h2font: 'Permanent Marker';
+
+body {
+  background: $background-color;
+  width: 100%;
+}
+
+.page {
+  box-sizing: content-box;
+  min-height: 750px;
+  width: 100%;
+}
+
+.goup {
+  margin-top: 100px;
+  color: white;
+  transform: rotate(-45deg);
+}
+
+.goup:hover {
+  color: $accent-color;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+  font-family: $h1font;
+  color: $accent-color;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.test {
+  color: white;
+}
